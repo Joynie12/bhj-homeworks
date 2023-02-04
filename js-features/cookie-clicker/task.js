@@ -1,4 +1,4 @@
-let score = document.getElementById("clicker__counter");
+const score = document.getElementById("clicker__counter");
 const image = document.getElementById("cookie");
 let counter = 0;
 image.addEventListener('click', function() {

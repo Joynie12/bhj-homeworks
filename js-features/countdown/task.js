@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function(){
         if (secs !== `0`) {
             --secs
             timer.innerHTML = secs;
-        } else (clearInterval(timer));
+        } else (clearTimeout(timer));
         if(secs == 0)
         {  
         alert(`Вы победили в конкурсе!`);
